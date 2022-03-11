@@ -1,0 +1,93 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.navbar {
+    /* barra navegadora total*/
+    display: flex;
+    padding-top: 32px;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-between;
+    background: #2D4A22;
+    /* Rectangle */
+    height: 206px;
+   
+}
+
+.navbar-title {
+    display: flex;
+    /* dev.finances */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.navbar-list ul {
+    display: flex;
+    list-style: none;
+    /* Listagem */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.navbar-list ul li {
+    padding: 0px 8px;
+
+}
+
+.navbar-list1 {
+    display: flex;
+    padding-right: 8px;
+    margin-right: 8px;
+
+}
+
+.navbar-list2 {
+    display: flex;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.color-green {
+    color: #49AA26;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -103px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    font-family: Poppins;
+    height: 136px;
+    width: 352px;
+}
+
+.card-top{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
